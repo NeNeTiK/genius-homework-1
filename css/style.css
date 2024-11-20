@@ -153,6 +153,7 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
 
 .js-btn:hover .icon-background {
