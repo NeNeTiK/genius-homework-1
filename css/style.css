@@ -1,0 +1,271 @@
+@import "/fonts/Play-Bold.ttf";
+@import "/fonts/Play-Regular.ttf";
+@import "/fonts/Roboto-Bold.ttf";
+@import "/fonts/Roboto-Regular.ttf";
+
+@font-face {
+    font-family: Play-bold;
+    src: url(/fonts/Play-Bold.ttf);
+}
+
+@font-face {
+    font-family: Play-Regular;
+    src: url(/fonts/Play-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+:root {
+    --white: #fff;
+    --light-blue: #2B7FFF;
+    --dark-blue: #011C44;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: Roboto-Regular;
+    background-color: lightsalmon;
+}
+
+.logo {
+    font-family: Play-bold;
+    font-size: 22px;
+    line-height: 21px;
+    color: var(--light-blue);
+}
+
+.nav-list a {
+    color: var(--dark-blue);
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+.nav-list a:hover {
+    font-family: Roboto-Bold;
+    color: var(--light-blue);
+}
+
+.hero-heading {
+    font-family: Play-Bold;
+    font-size: 140px;
+    line-height: 114px;
+    color: var(--light-blue);
+}
+
+.hero-paragraph-1 {
+    font-size: 18px;
+    line-height: 21.09px;
+    color: var(--dark-blue);
+}
+
+.hero-button {
+    font-family: Roboto-Bold;
+    font-size: 17px;
+    color: var(--dark-blue);
+    line-height: 21.09px;
+    padding: 16px 32px;
+    border: 2px solid var(--light-blue);
+    border-radius: 32px;
+    background-color: inherit;
+}
+
+.hero-button:hover {
+    color: var(--white);
+    background-color: var(--light-blue);
+}
+
+.hero-paragraph-2 {
+    font-size: 12px;
+    line-height: 18px;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.our-benefits h1 {
+    font-family: Play-Bold;
+    font-size: 64px;
+    line-height: 74.05px;
+    color: var(--dark-blue);
+}
+
+.our-benefits p {
+    font-size: 22px;
+    line-height: 38px;
+}
+
+.our-benefits span {
+    font-family: Roboto-Bold;
+}
+
+.our-benefits img {
+    height: 328px;
+}
+
+.our-benefits-2 {
+    text-align: center;
+}
+
+.our-benefits-2 h1 {
+    font-family: Play-Bold;
+    font-size: 64px;
+    line-height: 74.05px;
+    color: var(--dark-blue);
+}
+
+.our-benefits-2 p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+}
+
+.procedures h1 {
+    font-family: Play-Bold;
+    font-size: 64px;
+    line-height: 74.05px;
+    color: var(--dark-blue);
+    text-align: center;
+}
+
+.js-btn {
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.js-btn:hover .icon-background {
+    fill: #2B7FFF;
+}
+
+.js-btn:hover .icon-border {
+    stroke: #fff;
+}
+
+.js-btn:hover .icon-arrow {
+    fill: #fff;
+}
+
+.procedures p {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--white);
+}
+
+.how-to-find-us h1 {
+    font-family: Play-Bold;
+    font-size: 64px;
+    line-height: 74.05px;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.form h2 {
+    font-family: Roboto-Bold;
+    font-size: 22px;
+    line-height: 25.78px;
+    text-align: center;
+    color: var(--white);
+}
+
+.form-input {
+    border-radius: 32px;
+    background-color: inherit;
+    cursor: pointer;
+    font-family: Roboto-Regular;
+    font-size: 13px;
+    line-height: 15.23px;
+    padding: 18px 32.85px;
+    width: 315px;
+    border: 1.5px solid #747272
+}
+
+.form-input:active {
+    background-color: #747272;
+}
+
+.form-input::placeholder {
+    color: var(--white);
+}
+
+.form-submit {
+    border-radius: 32px;
+    padding: 16px 32px;
+    background-color: var(--light-blue);
+    border: solid var(--light-blue);
+    color: var(--white);
+    font-family: Roboto-Bold;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+.form p {
+    color: #747272;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.form p span {
+    color: #747272;
+    text-decoration: underline solid;
+}
+
+.logo2 {
+    font-family: Play-Bold;
+    font-size: 24px;
+    line-height: 21px;
+    color: var(--light-blue);
+}
+
+footer ul a {
+    font-size: 16px;
+    line-height: 18.75px;
+    color: var(--white);
+}
+
+footer ul {
+    font-size: 16px;
+    line-height: 18.75px;
+    color: var(--white);
+}
+
+.address {
+    font-size: 16px;
+    line-height: 18.75px;
+    color: var(--white);
+}
+
+.сonfidentiality {
+    font-size: 16px;
+    line-height: 18.75px;
+    color: var(--white);
+}
+
+.copyright {
+    font-size: 13px;
+    line-height: 15.23px;
+    color: #747272;
+}

@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Zone</title>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
-      <a href="/" lang="en">Beauty<br />Zone</a>
+      <a href="/" lang="en" class="logo">Beauty<br />Zone</a>
       <nav>
-        <ul>
+        <ul class="nav-list">
           <li><a href="#" lang="en">Про нас</a></li>
           <li><a href="#" lang="en">Чому ми</a></li>
           <li><a href="#" lang="en">Наші процедури</a></li>
@@ -35,10 +36,12 @@
 
     <main>
       <section class="hero">
-        <p>Косметологічна клініка</p>
-        <h1>Beauty<br />Zone</h1>
-        <button type="button">Замовити дзвінок</button>
-        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+        <p class="hero-paragraph-1">Косметологічна клініка</p>
+        <h1 class="hero-heading">Beauty<br />Zone</h1>
+        <button type="button" class="hero-button">Замовити дзвінок</button>
+        <p class="hero-paragraph-2">
+          Запишись та отримай безкоштовну консультацію нашого косметолога
+        </p>
         <img src="/images/hero-image.png" width="1151" alt="hero-image" />
       </section>
       <section class="our-benefits">
@@ -63,7 +66,7 @@
           <img src="/images/after-image.png" width="343" alt="after-image" />
         </div>
       </section>
-      <section>
+      <section class="our-benefits-2">
         <h1>Чому люди<br /><span style="color: #2b7fff">обирають нас</span></h1>
         <div>
           <div>
@@ -89,11 +92,41 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="procedures">
         <h1>Наші <span style="color: #2b7fff">процедури</span></h1>
         <div>
-          <button type="button">
-            <img src="/images/arrow1.svg" alt="arrow-back" />
+          <button type="button" class="js-btn">
+            <svg
+              width="44"
+              height="44"
+              viewBox="0 0 44 44"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_b_67_310)">
+                <circle
+                  cx="22"
+                  cy="22"
+                  r="22"
+                  transform="matrix(-1 0 0 1 44 0)"
+                  class="icon-background"
+                />
+                <circle
+                  cx="22"
+                  cy="22"
+                  r="21.6159"
+                  transform="matrix(-1 0 0 1 44 0)"
+                  class="icon-border"
+                  stroke="#011C44"
+                  stroke-width="0.768227"
+                />
+              </g>
+              <path
+                d="M13.531 22.7071C13.1405 22.3166 13.1405 21.6834 13.531 21.2929L19.8949 14.9289C20.2855 14.5384 20.9186 14.5384 21.3092 14.9289C21.6997 15.3195 21.6997 15.9526 21.3092 16.3431L15.6523 22L21.3092 27.6569C21.6997 28.0474 21.6997 28.6805 21.3092 29.0711C20.9186 29.4616 20.2855 29.4616 19.8949 29.0711L13.531 22.7071ZM31 23L14.2381 23L14.2381 21L31 21L31 23Z"
+                class="icon-arrow"
+                fill="#011C44"
+              />
+            </svg>
           </button>
           <div>
             <div>
@@ -101,20 +134,51 @@
               <p>Маски для обличчя</p>
             </div>
             <div>
-              <img src="/images/image1574.png" alt="injection" />
+              <img src="/images/image1570.png" alt="injection" />
               <p>Ін'єкції для обличчя</p>
             </div>
             <div>
-              <img src="/images/image1570.png" alt="clearing" />
+              <img src="/images/image1574.png" alt="clearing" />
               <p>Очищення обличчя</p>
             </div>
           </div>
-          <button type="button">
-            <img src="/images/arrow2.svg" alt="arrow-forward" />
+          <button type="button" class="js-btn">
+            <svg
+              width="44"
+              height="44"
+              viewBox="0 0 44 44"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_b_67_311)">
+                <circle
+                  cx="22"
+                  cy="22"
+                  r="22"
+                  transform="matrix(-1 0 0 1 44 0)"
+                  class="icon-background"
+                  fill="white"
+                />
+                <circle
+                  cx="22"
+                  cy="22"
+                  r="21.6159"
+                  transform="matrix(-1 0 0 1 44 0)"
+                  class="icon-border"
+                  stroke="#011C44"
+                  stroke-width="0.768227"
+                />
+              </g>
+              <path
+                d="M31.7071 21.2929C32.0976 21.6834 32.0976 22.3166 31.7071 22.7071L25.3431 29.0711C24.9526 29.4616 24.3195 29.4616 23.9289 29.0711C23.5384 28.6805 23.5384 28.0474 23.9289 27.6569L29.5858 22L23.9289 16.3431C23.5384 15.9526 23.5384 15.3195 23.9289 14.9289C24.3195 14.5384 24.9526 14.5384 25.3431 14.9289L31.7071 21.2929ZM31 23L14.2381 23L14.2381 21L31 21L31 23Z"
+                class="icon-arrow"
+                fill="#011C44"
+              />
+            </svg>
           </button>
         </div>
       </section>
-      <section>
+      <section class="how-to-find-us">
         <h1>Як нас <span style="color: #2b7fff">знайти</span></h1>
         <div>
           <iframe
@@ -127,28 +191,45 @@
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div>
+        <div class="form">
           <h2>
             Запишіться <span style="color: #2b7fff">безкоштовно</span> та
             отримайте подарунок
           </h2>
           <form>
             <div>
-              <input type="text" placeholder="Ваше ім'я та прізвище" />
-              <input type="text" placeholder="Ваш номер телефону" />
-              <input type="text" placeholder="Ваша електрона пошта" />
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Ваше ім'я та прізвище"
+              />
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Ваш номер телефону"
+              />
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Ваша електрона пошта"
+              />
             </div>
-            <input type="submit" value="Записатись безкоштовно" />
+            <input
+              type="submit"
+              class="form-submit"
+              value="Записатись безкоштовно"
+            />
             <p>
-              Натискаючи на кнопку я погоджуюсь
-              <a href="#">з політикою конфіденційності</a>
+              Натискаючи на кнопку я погоджуюсь<br /><span
+                >з політикою конфіденційності</span
+              >
             </p>
           </form>
         </div>
       </section>
     </main>
     <footer>
-      <a href="/" lang="en">Beauty<br />Zone</a>
+      <a href="/" lang="en" class="logo2">Beauty<br />Zone</a>
       <ul>
         <li><a href="#" lang="en">Про нас</a></li>
         <li><a href="#" lang="en">Чому ми</a></li>
@@ -162,7 +243,7 @@
             <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
           </li>
         </ul>
-        <p>Україна, м. Київ, вул. Тараса Шевченка 5</p>
+        <p class="address">Україна, м. Київ, вул. Тараса Шевченка 5</p>
       </address>
       <ul>
         <li>
@@ -179,8 +260,8 @@
           /></a>
         </li>
       </ul>
-      <a href="#">Політика конфіденційності</a>
-      <p>&#169;2022 Дані захищені</p>
+      <a href="#" class="сonfidentiality">Політика конфіденційності</a>
+      <p class="copyright">&#169;2022 Дані захищені</p>
       <img src="/images/medicine.png" alt="medicine" />
     </footer>
   </body>
