@@ -203,7 +203,7 @@ body {
     border: 1.5px solid #747272
 }
 
-.form-input:active {
+.form-input:focus {
     background-color: #747272;
 }
 
