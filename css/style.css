@@ -117,10 +117,6 @@ body {
     font-family: Roboto-Bold;
 }
 
-.our-benefits img {
-    height: 328px;
-}
-
 .our-benefits-2 {
     text-align: center;
 }
@@ -146,28 +142,6 @@ body {
     text-align: center;
 }
 
-.js-btn {
-    background-color: none;
-    border: none;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-}
-
-.js-btn:hover .icon-background {
-    fill: #2B7FFF;
-}
-
-.js-btn:hover .icon-border {
-    stroke: #fff;
-}
-
-.js-btn:hover .icon-arrow {
-    fill: #fff;
-}
-
 .procedures p {
     font-size: 22px;
     line-height: 26px;
@@ -181,57 +155,6 @@ body {
     line-height: 74.05px;
     text-align: center;
     color: var(--dark-blue);
-}
-
-.form h2 {
-    font-family: Roboto-Bold;
-    font-size: 22px;
-    line-height: 25.78px;
-    text-align: center;
-    color: var(--white);
-}
-
-.form-input {
-    border-radius: 32px;
-    background-color: inherit;
-    cursor: pointer;
-    font-family: Roboto-Regular;
-    font-size: 13px;
-    line-height: 15.23px;
-    padding: 18px 32.85px;
-    width: 315px;
-    border: 1.5px solid #747272
-}
-
-.form-input:focus {
-    background-color: #747272;
-}
-
-.form-input::placeholder {
-    color: var(--white);
-}
-
-.form-submit {
-    border-radius: 32px;
-    padding: 16px 32px;
-    background-color: var(--light-blue);
-    border: solid var(--light-blue);
-    color: var(--white);
-    font-family: Roboto-Bold;
-    font-size: 18px;
-    line-height: 21.09px;
-}
-
-.form p {
-    color: #747272;
-    font-size: 12px;
-    line-height: 18px;
-    text-align: center;
-}
-
-.form p span {
-    color: #747272;
-    text-decoration: underline solid;
 }
 
 .logo2 {
